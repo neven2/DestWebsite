@@ -1,0 +1,9 @@
+export {default as About} from './About/About';
+export {default as Offers} from './Offers/Offers';
+export {default as Services} from './Services/Services';
+export {default as NotFound} from './NotFound/NotFound';
+export {default as MainPage} from './MainPage/Main'
+export {default as Favorite} from './Favorite/Favorite';
+export {default as Login} from './Login/Login'
+export {default as SignUp} from './Signup/SignUp'
+export {default as Profile} from './Profile/Profile'

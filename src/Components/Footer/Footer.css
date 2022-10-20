@@ -1,0 +1,69 @@
+/* Footer */
+footer{
+    background-color: #3C3B6E;
+    padding: 6rem 0rem;
+    color: white;
+
+}
+.footer-details{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer h3{
+    color: var(--mainColor);
+}
+.footer-logo p{
+    width: 200px;
+}
+.copyright-text{
+ padding-top: 40px;
+}
+.social-media-info{
+  padding-top: 20px;
+}
+.social-media-info i{
+  font-size: var(--h3-font-size);
+  padding-right: 10px;
+}
+
+
+.download-info button {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: var(--mainColor);
+  color: white;
+  width: 200px;
+  height:60px;
+  margin-top: 20px;
+}
+.download-info button i {
+  align-self: center;
+  font-size: 1.2rem;
+  padding-right:10px;
+}
+.download-info h3,
+.download-info p {
+  font-size: var(--normal-font-size);
+  padding-bottom: 20px;
+}
+.google-text {
+  color: var(--body-text-color);
+}
+.footer-bottom {
+  padding: 40px 0;
+}
+.links ul li , .links h3{
+  padding-bottom: 20px;
+}
+.links ul li a{
+  color: white;
+}
+@media screen and (max-width: 768px) {
+.footer-details{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+}

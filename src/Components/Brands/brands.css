@@ -1,0 +1,28 @@
+.margin-bottom{
+    padding-bottom: 40px;
+}
+.brand img{
+  width: 110px;
+}
+
+.brand{
+  background-color: #F3F6F8;
+  padding:3rem 3.5rem;
+  border-radius: 10px;
+}
+
+.promoVideo{
+  padding: 9rem 0;
+  background-color:rgba(241, 238, 238, 0.541)
+}
+.promo-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo-video,.promo-data{
+width: 50%;
+}
+.promo-data p{
+  width: 400px;
+}

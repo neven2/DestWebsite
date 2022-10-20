@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "SanFrancisco";
+  src: url(./assets//sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: transparent;
+}
+:root {
+  --mainColor: #D1375B;
+  --big-font-size: 2rem;
+  --h1--font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1;
+  --normal-font-size: 0.8rem;
+  --small-font-size: 0.6rem;
+  --body-text-color: #6f7388;
+  --body-font: SanFrancisco;
+  --title-font: "Lora", serif;
+}
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3rem;
+    --h1--font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.8rem;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--body-text-color);
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+button,.btn {
+  cursor: pointer;
+  border: none;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: white !important;
+  background-color: var(--mainColor);
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: all ease-in-out 0.5s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+input {
+  outline: none;
+  border: none;
+}
+img {
+  max-width: 100%;
+}
+section {
+  padding: 7rem 0 3rem;
+}
+.section-title {
+  font-size: var(--h1--font-size);
+  text-transform: capitalize;
+  color: black;
+  font-family: var(--title-font);
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.section-subtitle{
+    text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: calc(100% - 20%);
+  margin: 0 auto;
+}
